@@ -71,7 +71,7 @@ def find(a):
 
 
 
-with open(r'/workspaces/AdventOfCode/2023/dec3_input.txt', 'r', encoding='utf-8') as file:
+with open('dec3_input.txt', 'r', encoding='utf-8') as file:
     SYMBOLS= r"!@#$%^&*()/\|{}[]<>?~`+=,;:'\""
     arr=[]
     add=0
