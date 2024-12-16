@@ -21,7 +21,7 @@ def mas(line1, line2, line3):
              or
             (line1[i] == 'M' and line1[i + 2] == 'M' and
              line2[i + 1] == 'A' and
-             line3[i] == 'S' and line3[i + 2] == 'S')g
+            line3[i] == 'S' and line3[i + 2] == 'S')
         ):
             ans += 1
     return ans
@@ -30,7 +30,7 @@ with open('input.txt') as f:
     lines = [line.strip().upper() for line in f]
     ans = 0
     l = len(lines)
-    print("Input Lines:", lines)
+    #print("Input Lines:", lines)
     for i in range(l - 2):  # Iterate through sets of 3 consecutive lines
         line1 = lines[i]
         line2 = lines[i + 1]
